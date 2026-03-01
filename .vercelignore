@@ -1,0 +1,31 @@
+# Dependencies — Vercel installs these fresh on every deploy
+node_modules/
+
+# Local environment files — NEVER deploy these
+.env
+.env.local
+.env.development
+.env.development.local
+
+# Development and debug files
+.next/cache
+_cline_error_log.md
+
+# Editor and OS files
+.DS_Store
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+Thumbs.db
+
+# Test files
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+__tests__/
+
+# Documentation
+README.md
